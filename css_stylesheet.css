@@ -28,7 +28,6 @@ body {
     from {
         width: 0;
     }
-
     to {
         width: 660px;
     }
@@ -36,9 +35,8 @@ body {
 
 @keyframes blinkTextCursor {
     from {
-        border-right-color: rgba(255,255,255,.75);
+        border-right-color: #dbdbdb;
     }
-
     to {
         border-right-color: transparent;
     }
@@ -59,12 +57,11 @@ body {
 }
 
 button {
-    color: white;
+    color: #dbdbdb;
     font-family: 'Anonymous Pro', monospace;
     border: transparent;
     background-color: transparent;
     font-size: 30px;
-    padding: 20px;
     margin: 15px;
     cursor: pointer;
     transition: all 0.3s;
