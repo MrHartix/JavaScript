@@ -86,6 +86,7 @@ input {
     cursor: pointer;
     transition: all 0.3s;
 }
+
 input:hover {
     text-shadow: 0 0 10px white;
 }
