@@ -90,3 +90,16 @@ input {
 input:hover {
     text-shadow: 0 0 10px white;
 }
+
+textarea {
+    background-color: gray;
+    font-size: 20pt;
+    border-color: black;
+    border-width: 2pt;
+    color: white;
+    border-radius: 10px;
+}
+
+textarea:hover {
+    cursor: pointer;
+}
